@@ -10,11 +10,11 @@ public:
         int a = m;
         int b = n;
         // cout << m << n;
-        if (m == 1) return matrix[0];
-        if (n == 1) {
-            for (int i = 0; i < m; i++) res.push_back(matrix[i][0]);
-            return res;
-        }
+//        if (m == 1) return matrix[0];
+//        if (n == 1) {
+//            for (int i = 0; i < m; i++) res.push_back(matrix[i][0]);
+//            return res;
+//        }
         int count = m < n ? n / 2 : m / 2;
         int offset = 1;
         int k = 0, l = 0;
